@@ -32,3 +32,29 @@ cosmic-trivia/
 ├── script.js
 └── README.md
 ```
+## Design
+
+The design uses a dark space-inspired interface with subtle star patterns and a warm gold accent. I wanted the page to feel more like a small astronomy-themed experience while keeping the actual quiz structure familiar and easy to use.
+
+## What I Learned
+
+While building this project, I worked with DOM manipulation, event handling, arrays and objects in JavaScript, responsive CSS, dynamic score calculation and basic UI state management.
+
+The project also gave me a chance to think about usability rather than focusing only on making the page look good.
+
+## Future Improvements
+
+Some features I would consider adding later are:
+
+Saving high scores locally
+A larger question bank
+Different quiz categories
+Difficulty levels
+A leaderboard
+More detailed performance statistics
+
+Author
+
+Aashish Sharma
+
+Built for the DevComm International Developers Community Recruitment Task.
