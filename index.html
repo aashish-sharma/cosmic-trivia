@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Test your knowledge of space and astronomy with this 10-question interactive trivia quiz covering planets, missions, stars, and more.">
+
+  <title>Cosmic Trivia | Space & Astronomy Quiz</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background stars -->
+  <div class="stars" aria-hidden="true"></div>
+
+  <main class="quiz-container">
+
+    <!-- Header -->
+    <header class="hero">
+
+      <div class="eyebrow">
+        ✦ COSMIC TRIVIA
+      </div>
+
+      <h1>Space & Astronomy Quiz</h1>
+
+      <p>
+        Ten questions across the universe — planets, missions,
+        stars, and the void between.
+      </p>
+
+      <div class="quiz-meta">
+        <span>🚀 10 Questions</span>
+        <span>⏱ 10 Minutes</span>
+        <span>🌌 Astronomy</span>
+      </div>
+
+    </header>
+
+
+    <!-- Quiz controls -->
+    <section class="quiz-controls">
+
+      <div class="progress-info">
+        <span id="answered-count">0 of 10 answered</span>
+        <span id="timer">10:00</span>
+      </div>
+
+      <div class="progress-bar">
+        <div id="progress"></div>
+      </div>
+
+    </section>
+
+
+    <!-- Question navigator -->
+    <section class="navigator" aria-label="Question navigator">
+
+      <div class="navigator-heading">
+        <span>QUESTION NAVIGATOR</span>
+        <span>Jump to a question</span>
+      </div>
+
+      <div id="question-nav" class="question-nav" role="navigation" aria-label="Jump to question"></div>
+
+    </section>
+
+
+    <!-- Questions will be inserted here -->
+    <section id="quiz" aria-label="Quiz questions"></section>
+
+
+    <!-- Submit area -->
+    <section class="submit-section" id="submit-section">
+
+      <div>
+        <strong>Ready to explore the universe?</strong>
+        <p>
+          Make sure you've answered every question before submitting.
+        </p>
+      </div>
+
+      <button id="submit-btn" class="submit-btn">
+        Submit Quiz →
+      </button>
+
+    </section>
+
+
+    <!-- Result -->
+    <section id="result" class="result hidden" aria-label="Quiz results"></section>
+
+
+    <!-- Footer -->
+    <footer>
+      <span>Cosmic Trivia</span>
+      <span>Built with HTML • CSS • JavaScript</span>
+    </footer>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
